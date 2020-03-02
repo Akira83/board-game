@@ -1,0 +1,11 @@
+# Start mongoDB
+sudo service mongod start
+
+# Verify if it is running
+sudo service mongod status
+
+# Stop mongoDB
+sudo service mongod stop
+
+# Using mongo
+mongo

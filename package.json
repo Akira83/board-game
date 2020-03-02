@@ -14,7 +14,8 @@
     "lint": "eslint src config",
     "dev": " webpack-dashboard -- webpack-dev-server --config config/webpack.config.dev.js",
     "test": "export NODE_ENV=test && jest",
-    "start": "serve -s build"
+    "start": "serve -s build",
+    "lan": "HOST=0.0.0.0 npm run start"
   },
   "repository": {
     "type": "git",
